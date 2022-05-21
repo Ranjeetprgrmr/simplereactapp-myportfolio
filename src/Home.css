@@ -1,0 +1,54 @@
+.home__bg{
+background-image: url(./images/bgy.jpg);
+    background-color: #010101;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+li.nav__items {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.home__content {
+    padding: 133px 0;
+    margin-bottom: 2px;
+}
+    
+h1.home__text{   
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgba(126, 136, 139, 0.87)!important;
+}
+h2.home__text {
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 800;
+    font-family: Montserrat, sans-serif;
+}
+h3.home__text {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    font-family: Montserrat, sans-serif;
+}
+h4.home__text {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    font-family: Montserrat, sans-serif;
+}
+.header {
+    transition: .4s all ease;
+}
+.header.active{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #191919;
+}
+
+
+
